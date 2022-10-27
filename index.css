@@ -1,18 +1,17 @@
+#title{
+    text-align: center;
+}
 .nav-container {
     background-color: black;
-
+    padding: 16px;
+    text-align: center;
 }
 
+.nav-container a{
+    padding: 16px;
+    text-align: center;
 
-.nav-list {
-    display: grid;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    grid-template-columns: repeat(4, 1fr);
-    margin-inline: auto;
 }
-
-.nav-list{
-    color: aliceblue;
+.nav-container a:hover{
+    background-color: aliceblue;
 }
