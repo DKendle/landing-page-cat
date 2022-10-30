@@ -5,6 +5,7 @@
     background-color: black;
     padding: 16px;
     text-align: center;
+    margin: 20px;
 }
 
 .nav-container a{
@@ -16,10 +17,32 @@
     background-color: aliceblue;
 }
 
-.cat-image{
-
+.complete-cat-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.cat-image {
+    display: flex;
+    height: 20vh;
+    width: 10vh;
+    border-radius: 100px;
 }
 
 .catdesc {
+}
+
+.reverse-complete-cat-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.reverse-cat-image {
+    display: flex;
+    
+}
+
+.reverse-catdesc {
 
 }
